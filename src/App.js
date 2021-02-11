@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {TodoList} from './TodoList';
-import {Todo} from './Todo';
+import {TodoApp} from './TodoApp';
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
           Learn Reactttt
         </a>
       </header>
-	  <TodoList todoList={todos}/>
+	  <TodoApp />
     </div>
   );
 }
